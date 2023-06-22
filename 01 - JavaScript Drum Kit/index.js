@@ -1,9 +1,9 @@
   // how the animation works:
   // when a key is pressed, add the class "playing" to the div element with the corresponding data-key
   // same for the sound, listen for key event -> play sound
-  // for this we need a listener for the keydown event
-  window.addEventListener('keydown', (ev) => {
+  // for this we need a listener for the keydown event and a function attached to it
 
+  const playSound = (ev) => {
     const audio = document.querySelector(`audio[data-key="${ev.keyCode}"]`);
     // querySelector: works just like CSS selector
     // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
@@ -15,7 +15,8 @@
     // select the key to add the class "playing"
     const key = document.querySelector(`.key[data-key="${ev.keyCode}"]`);
     key.classList.add('playing');
-  })
+  };
+  window.addEventListener('keydown', playSound)
 
   // transition end event:
   // when the transition ends, remove the class "playing"
