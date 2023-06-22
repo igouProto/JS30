@@ -57,9 +57,9 @@ body {
     left: 20%;
 }
 
-.hand.minute-hand{
-    width: 40%;
-    left: 10%;
+.hand.min-hand{
+    width: 45%;
+    left: 5%;
 }
 
 .hand.second-hand{
