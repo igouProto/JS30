@@ -1,0 +1,12 @@
+Learning points:
+
+- CSS (backdrop-filter, transform-origin, transition-timing-function)
+- Using JS to control CSS (xyz.style)
+
+Extra stuff I added:
+- Different BG image
+- Hands whose length varies
+- Thinner and red second hand
+- simple digital clock 
+- backdrop blur effect
+- an if statement that prevents the second hand from going backwards
