@@ -1,0 +1,6 @@
+Learning points:
+
+- custom attribute / data attribute (data-xyz)
+- listening to events (keyDown / keyUp / transitionend)
+- adding / removing classes programatically
+- playing audio (play / seek)
