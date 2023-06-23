@@ -1,0 +1,66 @@
+:root {
+    --base: #ffc600;
+    --spacing: 16px;
+    --blur: 0px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.controls {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls input {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+input {
+    width: 100px;
+}
+
+.spacingdisp, .blurdisp {
+    margin-right: 20px;
+}
+
+/* my own style of input */
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: white;
+    height: 2px;
+}
+
+input[type=range]::-moz-range-track {
+    background: white;
+    height: 2px;
+}
+
+label {
+    font-size: 25px;
+}

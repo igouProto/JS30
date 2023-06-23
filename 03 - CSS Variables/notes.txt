@@ -1,0 +1,7 @@
+Learning points:
+
+- CSS variables and how to control them programatically.
+- Under _proto_ of an object, we can see every method that it has
+- Events (change, mousemove)
+- Dataset (an object containing all data-xyz of the target)
+- The root node (document.documentElement) and how to set its properties
