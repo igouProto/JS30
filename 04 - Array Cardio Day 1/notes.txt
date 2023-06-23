@@ -1,0 +1,14 @@
+Learning points:
+
+console.table() // should have known this earlier...
+
+Basic array functions
+- filter (for each item, if the function that uses the item as the input evaluates to true, it'll add to the returned array. Other items goes to the void.)
+- map
+- sort
+- reduce (we have access to something from the last time and can use it in the next round)
+
+Basic web scraping (kinda?)
+Query selector can be ran on any DOM element, not just document
+Method chaining (is that the proper term?)
+String splitting
