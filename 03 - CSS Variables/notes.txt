@@ -5,3 +5,7 @@ Learning points:
 - Events (change, mousemove)
 - Dataset (an object containing all data-xyz of the target)
 - The root node (document.documentElement) and how to set its properties
+
+Extra stuff I added:
+- Set default value on load
+- Numeric display
