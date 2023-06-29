@@ -1,0 +1,10 @@
+Learning points:
+- Fetching external data with the fetch API
+- Promise (something that evetually comes back (and change))
+- .then() // then(onFulfilled) or then(onFulfilled, onRejected)
+- regex (and with variable)
+- .replace()
+
+Extra stuff I added:
+- Make the result array empty if the input field is empty.
+- Slide in animation for the entire list (but I disabled it cuz it makes me dizzy)
