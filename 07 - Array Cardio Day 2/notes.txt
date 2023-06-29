@@ -1,0 +1,9 @@
+Learning points:
+
+- More array operations
+    - .some() // at least one in the arr matches what we're looking for
+    - .every() // EVERYTHING in the arr matches
+    - .find() // returns the item that evaluates as true
+    - .findIndex() // returns the INDEX of the item
+    - .splice(start, deleteCount, ...items) // changes the original arr and returns the removed item(s)
+    - .slice(start, end) // chops the array (returns shallow copy)
