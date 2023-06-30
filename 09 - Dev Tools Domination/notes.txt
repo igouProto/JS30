@@ -1,0 +1,15 @@
+Learning Points:
+
+Using the dev tools
+
+- Inspect -> Break on -> attribute modifications
+This shows which exact JS code is doing the changes.
+
+- Console tricks
+    - %s for inserting strings
+    - %c for adding styles
+    - warn / error / info
+    - assert
+    - console.dir() // lists app the properties of an object
+    - console.group(), console.groupEnd() // wraps stuff tgt in groups
+    - console.count() // counts anything
