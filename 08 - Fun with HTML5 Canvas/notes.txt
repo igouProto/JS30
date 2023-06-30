@@ -1,0 +1,15 @@
+Learning points:
+
+The canvas API
+- canvas.getContext()
+(https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext)
+
+- strokeStyle / lineJoin / lineCap
+- drawing a line (we need starting and ending points)
+    - context.beginPath(); // starts a new path
+    - context.moveTo(); // moves the "pen" to
+    - context.lineTo(); // draw a line to
+    - context.stroke(); // render the line
+
+Extra things I added:
+- extend to a working simple drawing app
