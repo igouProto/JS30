@@ -44,6 +44,17 @@ canvas {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.palette {
+    display: flex;
+    margin: 0px auto;
+}
+
 .color-button {
     width: 30px;
     height: 30px;
@@ -95,7 +106,6 @@ canvas {
     margin: 0px 5px;
 }
 
-
 span { /* turns off span click events inside button*/
     pointer-events: none;
 }
@@ -116,11 +126,6 @@ span { /* turns off span click events inside button*/
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
-}
-
-.palette {
-    display: flex;
-    margin: 0px auto;
 }
 
 .stroke-controls {

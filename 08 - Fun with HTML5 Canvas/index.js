@@ -7,7 +7,7 @@ const context = canvas.getContext('2d');
 
 // set the width and height of the canvas to the window
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight * 0.85;
+canvas.height = window.innerHeight * 0.88;
 
 // set the stroke style
 context.strokeStyle = '#f44336'; // sets the color used to draw lines and shapes
