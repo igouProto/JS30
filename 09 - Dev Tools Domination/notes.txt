@@ -13,3 +13,4 @@ This shows which exact JS code is doing the changes.
     - console.dir() // lists app the properties of an object
     - console.group(), console.groupEnd() // wraps stuff tgt in groups
     - console.count() // counts anything
+    - console.time(), console.timeEnd() // times whatever process wrapped inside
