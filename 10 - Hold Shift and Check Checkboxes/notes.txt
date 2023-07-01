@@ -1,0 +1,7 @@
+Learning points:
+
+- CSS selector (again)
+https://www.w3schools.com/cssref/css_selectors.php
+
+Extra things I added:
+- A shift key indicator
