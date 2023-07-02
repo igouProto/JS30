@@ -3,5 +3,7 @@ Learning points:
 - CSS selector (again)
 https://www.w3schools.com/cssref/css_selectors.php
 
+- Flipping flags when iterating through array items
+
 Extra things I added:
 - A shift key indicator
