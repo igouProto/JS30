@@ -1,0 +1,9 @@
+Learning points:
+
+- Listening to key events
+- Trimming arrays
+- creating elements and insert into the DOM programatically
+
+Extra stuff I added:
+- removed the cornify thing for simplicity
+- a little console message
