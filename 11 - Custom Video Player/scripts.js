@@ -2,6 +2,8 @@
 const player = document.querySelector('.player');
 const video = player.querySelector('.viewer');
 
+// console.log(player, video);
+
 // progress bar
 const progress = player.querySelector('.progress');
 const progressBar = player.querySelector('.progress__filled');
@@ -30,7 +32,7 @@ const togglePlay = () => {
 }
 
 const skip = (e) => {
-    console.log(e.target.dataset);
+    // console.log(e.target.dataset);
     video.currentTime += parseFloat(e.target.dataset.skip);
 }
 
@@ -74,8 +76,8 @@ const updateButton = () => {
 
 // scrub the video
 const scrub = (e) => {
-    console.log(e);
-    console.log(e.offsetX, progress.offsetWidth);
+    // console.log(e);
+    // console.log(e.offsetX, progress.offsetWidth);
     const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
     video.currentTime = scrubTime;
 }
@@ -98,10 +100,10 @@ video.addEventListener('play', updateButton); // update the play/pause button
 video.addEventListener('pause', updateButton); // update the play/pause button
 video.addEventListener('timeupdate', handleProgress); // updates the progress bar
 toggle.addEventListener('click', togglePlay); // click on button to play/pause
+
 skipButtons.forEach(button => button.addEventListener('click', skip)); // click on skip buttons to skip
 sliders.forEach(slider => slider.addEventListener('change', handleRangeUpdate)); // change the volume or playback rate
 sliders.forEach(slider => slider.addEventListener('mousemove', handleRangeUpdate)); // change the volume or playback rate
-
 
 progress.addEventListener('click', scrub); // click on progress bar to scrub
 
