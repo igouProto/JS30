@@ -37,6 +37,7 @@ Sets the initial main size of a flex item.
 More media playback:
 - play/pause/scrub/see progress
 - fullscreen! 
+- it's the best to get playback states from the video itself, since there are many ways to control playback.
 
 Other notes:    
 
