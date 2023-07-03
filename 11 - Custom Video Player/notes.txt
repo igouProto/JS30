@@ -1,0 +1,59 @@
+Learning points:
+
+A lot of CSS!
+
+- position:
+    - static: 
+    Element is positioned according to the normal flow of the document. 
+    The top, right, bottom, left, and z-index properties have no effect. 
+    This is the default value.
+    
+    - relative: Element is positioned according to the normal flow of the document.
+    Properties moves the element from its ORIGINAL position.
+    Useful when we want to move something without affecting the layout around it
+
+    - absolute: position is relative to its parent
+
+- box sizing
+Specifies whether to include the padding and border in an elt's total width and height
+
+    - border-box: padding and border does NOT add to the width / height
+    - content-box: padding and border adds to the width / height (default)
+
+
+- initial / inherit
+    - initial: set to default
+    - inherit: same as parent
+
+- flex-wrap
+Whether flex items are forced on one line or can be wrapped
+    - nowrap: default
+    - wrap: wraps
+    - wrap-reverse: wraps and reverses the direction
+
+- flex-basis
+Sets the initial main size of a flex item.
+
+More media playback:
+- play/pause/scrub/see progress
+- fullscreen! 
+
+Other notes:    
+
+- On the web, the default origin is the TOP-LEFT corner of a given context 
+(with positive y-coordinate values being below the origin).
+
+- Data attribute: if you want your custom attribute, put it after data- like data-xyz
+then you can access it with the dataset attribute.
+
+- You can test you function out simply by calling it it the console.
+
+- Another syntax to call methods: Object[method]();
+
+- event.offsetX (look into this later)
+
+Extra things I added:
+- Fullscreen button!
+- Number displays (vol/spd/progress)
+- icons!
+- tweaks on the progress bar (further grows when hovering)

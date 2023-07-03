@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Video Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+
+   <div class="player">
+     <video class="player__video viewer" src="karakara.mp4"></video>
+
+     <div class="player__controls">
+       <div class="progress">
+        <div class="progress__filled"></div>
+        <label class="num-display time" data-name="time"></label>
+       </div>
+
+       <button class="player__button toggle" title="Toggle Play">
+        <span class="material-symbols-rounded">play_arrow</span>
+       </button>
+
+       <button data-skip="-10" class="player__button">
+        <span class="material-symbols-rounded">replay_10</span>
+       </button>
+
+       <button data-skip="10" class="player__button">
+        <span class="material-symbols-rounded">forward_10</span>
+      </button>
+       
+       <div class="player__slider">
+          <span class="material-symbols-rounded">volume_up</span>
+          <input type="range" name="volume" min="0" max="1" step="0.05" value="1">
+          <label class="num-display" data-name="volume">100%</label>
+          
+          <span class="material-symbols-rounded">speed</span>
+          <input type="range" name="playbackRate"  min="0.5" max="2" step="0.1" value="1">
+          <label class="num-display" data-name="playbackRate">1x</label>
+       </div>
+
+        <button data-fullscreen="false" class="player__button fullscreen">
+          <span class="material-symbols-rounded">fullscreen</span>
+        </button>
+
+     </div>
+   </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
