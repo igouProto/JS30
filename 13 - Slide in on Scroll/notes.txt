@@ -1,0 +1,18 @@
+Learning points:
+
+Debouncing: 
+A programming practice used to ensure that time-consuming tasks do not fire so often.
+In other words, it limits the rate at which a function gets invoked.
+(In the example from this tut, the debounce function only runs the function
+passed in it every x ms)
+
+
+- setTimeout(smth, delay): Sets a timer which runs smth once the timer expires.
+returns a timeoutID that identifies the timer set.
+
+- clearTimeout(timeoutID): cancels the timeout previously set by setTimeout;
+
+- Function.prorotype.apply(this, [args]): 
+calls the Function by passing in [args] and gives it access to this. 
+
+Animate elements in while scrolling
