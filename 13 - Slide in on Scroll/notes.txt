@@ -15,4 +15,8 @@ returns a timeoutID that identifies the timer set.
 - Function.prorotype.apply(this, [args]): 
 calls the Function by passing in [args] and gives it access to this. 
 
-Animate elements in while scrolling
+- Some properties to know:
+    - window.scrollY: how much scrolling was done. counted at the very top of the viewport
+    (so window.scrollY + window.innerHeight kinda feels like moving the judge line down to the bottom)
+
+    - offsetTop: how far the top of smth is from the vary top of the window
