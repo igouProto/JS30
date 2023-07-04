@@ -1,0 +1,20 @@
+Learning points:
+
+Reference vs Copy
+(https://dev.to/samanthaming/how-to-deep-clone-an-array-in-javascript-3cig)
+
+Ways to do deep copy:
+Arrays:
+- Spreading
+const team4 = [...players];
+
+- Slicing with no argument
+const team2 = players.slice();
+
+- Concat
+const team3 = [].concat(players);
+
+Objects:
+- Object.assign(target, sources)
+- JSON.parse(JSON.stringify(source))
+- Spread it: {...source}
