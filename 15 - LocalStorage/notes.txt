@@ -1,0 +1,22 @@
+Learning Points:
+
+CSS stuffs:
+- ::before / ::after
+allows you to stick stuff to smth without it being in the HTML
+
+- +
+For selecting adj. siblings.
+i.e.,
+<p class="first"></p>
+<p class="second"></p>
+
+Event delegation:
+Listen for something at the parent, and do the filtering to
+check if it's the actual thing that we want it to respond.
+
+Local Storage (worked with it before)
+
+Extra things I added:
+- Animate the box in
+- Link to clear local storage
+- animate on new item
