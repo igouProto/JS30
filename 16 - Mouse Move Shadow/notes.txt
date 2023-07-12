@@ -1,0 +1,11 @@
+- Contenteditable
+Allows the element to be editable by the user
+true / false / plaintext-only (rich txt formatting is disabled)
+
+- offsetX and offsetY: if there are children in the elt we're listening to
+we'll be given the offset to those children as well, so some filtering is required
+
+
+- destructuring
+
+- listen to mouse movement to make parallax effect
