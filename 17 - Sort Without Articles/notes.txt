@@ -1,0 +1,16 @@
+- Array.sort
+sort() takes a comparison function that has a, b as the params
+comp(a, b) > 0 -> [b, a]
+comp(a, b) < 0 -> [b, a]
+comp(a, b) === 0 -> keeps original order
+
+- comparing strings?
+strings can be compared alphabetically
+i.e. apple > ball
+
+- regex
+
+- string.replace(pattern, replacement)
+- string.trim() // removes whitespace from both ends
+
+- query selector: #xyz selects id = "xyz"
