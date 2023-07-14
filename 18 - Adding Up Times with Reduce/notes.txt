@@ -1,0 +1,1 @@
+- Array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
