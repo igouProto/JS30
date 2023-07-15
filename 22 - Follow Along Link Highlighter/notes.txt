@@ -1,0 +1,7 @@
+- How this works:
+A span that figures out where and how big the item we're pointing at
+then moves itself to the right place and grow/shrink itself
+
+- element.getBoundingClientRect()
+Gives a DOMRect object including the size of an elt and its position relative to the viewport
+(Viewport's origin is at the top left corner)
