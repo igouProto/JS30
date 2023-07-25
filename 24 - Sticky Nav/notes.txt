@@ -1,0 +1,2 @@
+When something is fixed, it no longer takes space. It'll kinda just float there.
+So it would be better to add a padding to the body when fixing the position of the nav to compensate for the space
